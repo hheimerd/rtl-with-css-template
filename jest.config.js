@@ -1,7 +1,7 @@
 module.exports = {
     transform: {
       "^.+\\.jsx?$": "babel-jest",
-      "^.+\\.css$": ["@hheimerd/jest-transform-css", { modules: true }],
+      "^.+\\.css$": ["jest-transform-css", { modules: true }],
     },
     testEnvironment: "jsdom",
     moduleFileExtensions: ["js", "jsx"],
